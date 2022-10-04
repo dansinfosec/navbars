@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&display=swap');
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+	
+}
+
+
+body {
+		background-color: #374659;
+}
+
+.lorem1 {
+	padding-bottom: 30px;
+	padding: 10px;
+	color: #CDE7EF;
+}
+
+.li, a, button {
+	font-family: "B612", monospace;
+	font-weight: 400;
+	font-size: 18px;
+	color: whitesmoke;
+	text-decoration: none;
+	}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 8%;
+	background-color: darkslategray;
+}
+
+.logo {
+	cursor: pointer;
+}
+
+.nav__links {
+	list-style: none;
+}
+
+.nav__links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+	color: #ACCDF0;
+}
+
+button {
+	padding: 9px 25px;
+	background-color: #232E3C;
+	border: none;
+	/* maak de randen 50px rond */
+	border-radius: 50px; 
+	cursor: pointer;
+	transition: all 0.3s ease 0s ;
+}
+
+button:hover {
+	color: #ACCDF0;
+
+}
+
+/* Typewriter Section */
+h1 {
+	color: ivory;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	padding: 9px;
+	text-align: center;
+	
+}
+
+.logo { 
+
+}
